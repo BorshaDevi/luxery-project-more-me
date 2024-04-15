@@ -1,9 +1,8 @@
-import { createBrowserRouter } from "react-router-dom"
-import Root from "../Root/Root"
+import { createBrowserRouter } from "react-router-dom";
+import Root from "../Root/Root";
 import Home from "../Pages/Home/Home";
 
-
-const router= createBrowserRouter([
+const roder=createBrowserRouter([
     {
         path:"/",
         element:<Root></Root>,
@@ -15,4 +14,4 @@ const router= createBrowserRouter([
         ]
     }
 ])
-export default router;
+export default roder;
