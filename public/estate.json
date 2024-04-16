@@ -1,0 +1,111 @@
+[
+    {
+      "id": "1",
+      "estate_title": "Luxury Beachfront Villa",
+      "segment_name": "Villa",
+      "description": "A stunning beachfront villa with panoramic ocean views, featuring spacious living areas, private pool, and direct beach access.",
+      "price": "$5,000,000",
+      "status": "sale",
+      "area": "5000 sq ft",
+      "location": "Beachfront, Malibu, California",
+      "facilities": ["living room", "swimming pool", "kitchen"],
+      "image_url": "https://i.ibb.co/F0g9dsv/maldives-island-1.jpg"
+    },
+    {
+      "id": "2",
+      "estate_title": "Downtown Penthouse",
+      "segment_name": "Penthouse",
+      "description": "Modern penthouse located in the heart of the city, offering breathtaking skyline views, luxury amenities, and convenient access to urban attractions.",
+      "price": "$2,500,000",
+      "status": "sale",
+      "area": "3000 sq ft",
+      "location": "Downtown, New York City",
+      "facilities": ["living room", "rooftop terrace", "gym"],
+      "image_url": "https://i.ibb.co/kJpGrCG/resort-sand-beautiful-lagoon-exotic.jpg"
+    },
+    {
+      "id": "3",
+      "estate_title": "Spacious Family Home",
+      "segment_name": "House",
+      "description": "A spacious family home nestled in a quiet neighborhood, featuring multiple bedrooms, a large backyard, and close proximity to schools and parks.",
+      "price": "$600,000",
+      "status": "sale",
+      "area": "2500 sq ft",
+      "location": "Suburban, Austin, Texas",
+      "facilities": ["living room", "backyard", "garage"],
+      "image_url": "https://i.ibb.co/4jtTGWc/maldives-island-2.jpg"
+    },
+    {
+      "id": "4",
+      "estate_title": "Luxury Downtown Apartment",
+      "segment_name": "Apartment",
+      "description": "Luxurious apartment in the heart of downtown, boasting high-end finishes, panoramic city views, and access to top-notch amenities.",
+      "price": "$1,200,000",
+      "status": "sale",
+      "area": "1500 sq ft",
+      "location": "Downtown, Chicago",
+      "facilities": ["living room", "balcony", "fitness center"],
+      "image_url": "https://i.ibb.co/5rd3223/travel-maldives-resort-sea-holiday.jpg"
+    },
+    {
+      "id": "5",
+      "estate_title": "Cozy Countryside Cottage",
+      "segment_name": "Cottage",
+      "description": "Charming countryside cottage with rustic appeal, surrounded by nature, offering tranquility and relaxation away from the bustling city.",
+      "price": "$300,000",
+      "status": "sale",
+      "area": "1200 sq ft",
+      "location": "Rural, Vermont",
+      "facilities": ["living room", "front porch", "garden"],
+      "image_url": "https://i.ibb.co/25pcfWC/arborek-island-atoll.jpg"
+    },
+    {
+      "id": "6",
+      "estate_title": "Luxury Beachfront Condo",
+      "segment_name": "Condo",
+      "description": "Elegant beachfront condo with modern amenities, stunning ocean views, and direct access to pristine beaches, perfect for a luxurious seaside retreat.",
+      "price": "$1,800,000",
+      "status": "sale",
+      "area": "2000 sq ft",
+      "location": "Beachfront, Miami, Florida",
+      "facilities": ["living room", "swimming pool", "balcony"],
+      "image_url": "https://i.ibb.co/41sxNk7/maldives-island.jpg"
+    },
+    {
+      "id": "7",
+      "estate_title": "Downtown Office Space",
+      "segment_name": "Office",
+      "description": "Prime office space located in the bustling downtown area, ideal for businesses seeking a prestigious address and convenient access to urban amenities.",
+      "price": "$10,000/month",
+      "status": "rent",
+      "area": "5000 sq ft",
+      "location": "Downtown, San Francisco",
+      "facilities": ["conference room", "reception area", "kitchenette"],
+      "image_url": "https://i.ibb.co/pxLq9Js/beautiful-tropical-beach-sea.jpg"
+    },
+    {
+      "id": "8",
+      "estate_title": "Urban Loft Apartment",
+      "segment_name": "Apartment",
+      "description": "Chic loft apartment situated in a trendy urban neighborhood, featuring industrial design elements, spacious layout, and close proximity to cafes and boutiques.",
+      "price": "$3,500/month",
+      "status": "rent",
+      "area": "1500 sq ft",
+      "location": "Urban, Brooklyn, New York City",
+      "facilities": ["living room", "exposed brick walls", "laundry room"],
+      "image_url": "https://example.com/urban_loft.jpg"
+    },
+    {
+      "id": "9",
+      "estate_title": "Mountain View Retreat",
+      "segment_name": "Chalet",
+      "description": "Spectacular chalet nestled in the mountains, offering breathtaking views, cozy interiors, and access to outdoor activities such as hiking and skiing.",
+      "price": "$800,000",
+      "status": "sale",
+      "area": "3500 sq ft",
+      "location": "Mountain, Aspen, Colorado",
+      "facilities": ["living room", "fireplace", "deck"],
+      "image_url": "https://example.com/mountain_chalet.jpg"
+    }
+  ]
+  

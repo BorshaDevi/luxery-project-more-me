@@ -4,26 +4,32 @@ import { GithubAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword,
 import app from "../Firebase/Firebase";
 
 export const AuthContext=createContext(null)
+
 const auth=getAuth(app)
 const googleProvider=new GoogleAuthProvider()
 const githubProvider=new GithubAuthProvider()
 const AuthProvider = ({children}) => {
     const [user ,setUser] =useState(null)
+    const [loader,setLoader] =useState(true)
     const createAccount=(email,password)=>{
         return createUserWithEmailAndPassword(auth,email,password)
     }
 
     const signIn=(email,password)=>{
+        setLoader(true)
         return signInWithEmailAndPassword(auth,email,password)
     }
     const googleLogIn=()=>{
+        setLoader(true)
         return signInWithPopup(auth,googleProvider)
     }
     const gitHubLogIn=()=>{
+        setLoader(true)
         return signInWithPopup(auth,githubProvider)
     }
       
     const loginOut=()=>{
+        setLoader(true)
         return signOut(auth);
 
     }
@@ -33,6 +39,7 @@ const AuthProvider = ({children}) => {
         const unSubscribe=onAuthStateChanged(auth,currentUser => {
             console.log(currentUser)
              setUser(currentUser)
+             setLoader(false)
         })
         return () => unSubscribe();
     },[])
@@ -43,6 +50,7 @@ const AuthProvider = ({children}) => {
         loginOut,
         gitHubLogIn,
         user,
+        loader,
 
     }
     
