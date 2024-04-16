@@ -1,8 +1,7 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
-
-
+import 'animate.css';
 const Navbar = () => {
   const {loginOut,user} =useContext(AuthContext)
     const links=<>
@@ -31,7 +30,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className=" text-2xl font-semibold text-teal-500">Luxury estate</a>
+          <a className=" text-2xl font-semibold text-teal-500 animate__animated animate__bounce animate__lightSpeedInLeft">Luxury estate</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

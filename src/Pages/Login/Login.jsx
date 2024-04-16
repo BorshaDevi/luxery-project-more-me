@@ -28,10 +28,11 @@ const Login = () => {
        signIn(email,password)
        .then(result => {
         console.log(result.user)
-        toast('login successfully')
+        
        })
-       .catch(error => {
-        console.log(error.message)
+       .catch(() => {
+        
+        toast(' Invalte')
        })
       }
       const handleGoogle=()=>{
@@ -75,7 +76,7 @@ const Login = () => {
          {...register("password", { required: true })}
          
          />
-         <div className="absolute  justify-end top-4 left-60">
+         <div className="absolute  justify-end top-4 left-52 ">
 
           {
            click? <IoEyeOffOutline onClick={() => setClick(false)} /> : <IoEyeOutline onClick={() => setClick(true)} />

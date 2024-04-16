@@ -2,7 +2,7 @@
 import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa6";
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-10 bg-teal-200  ">
+        <footer className="footer footer-center p-10 bg-teal-200 mt-10 ">
   <aside>
     
     <p className="font-bold">
