@@ -1,9 +1,10 @@
+import Bannar from "./Bannar";
 
 
 const Home = () => {
     return (
         <div>
-            I am from Home.
+            <Bannar></Bannar>
         </div>
     );
 };

@@ -4,7 +4,7 @@ import { AuthContext } from "../AuthProvider/AuthProvider";
 
 
 const Navbar = () => {
-  const {loginOut} =useContext(AuthContext)
+  const {loginOut,user} =useContext(AuthContext)
     const links=<>
           <li><NavLink to='/'>Home</NavLink></li>
           <li><NavLink to='/updateProfile'>Update Profile</NavLink></li>
@@ -40,12 +40,17 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full">
-          <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+        <div className="w-10 rounded-full ">
+          {
+            user  && <img  src={user.photoURL}  className="hover:{user.displayName}" /> 
+          }
         </div>
       </div>
-          <Link to='/login'><button className="btn">Login</button></Link>
-          <button className="btn" onClick={handleLogOut}>Logout</button>
+      {
+        user ?<button className="btn" onClick={handleLogOut}>Logout</button> : <Link to='/login'><button className="btn">Login</button></Link>
+      }
+          
+          
         </div>
       </div>
     );

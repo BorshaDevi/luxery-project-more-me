@@ -8,8 +8,8 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 import { IoEyeOutline } from "react-icons/io5";
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Login = () => {
     const {signIn,googleLogIn,gitHubLogIn} =useContext(AuthContext)
     const [click,setClick] =useState(false)
@@ -28,6 +28,7 @@ const Login = () => {
        signIn(email,password)
        .then(result => {
         console.log(result.user)
+        toast('login successfully')
        })
        .catch(error => {
         console.log(error.message)
@@ -35,11 +36,14 @@ const Login = () => {
       }
       const handleGoogle=()=>{
         googleLogIn()
-
+        toast('login successfully')
       }
       const handleGitHub=()=>{
+
         gitHubLogIn()
+        toast('login successfully')
       }
+      
     return (
         <div>
             <div className="hero min-h-screen ">
@@ -106,7 +110,7 @@ const Login = () => {
     </div>
   </div>
 </div>
-{/* <ToastContainer /> */}
+<ToastContainer />
         </div>
     );
 };
