@@ -1,13 +1,18 @@
 
 import { FcGoogle } from "react-icons/fc";
-
+import { IoEyeOffOutline } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
+
+import { IoEyeOutline } from "react-icons/io5";
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 const Login = () => {
     const {signIn,googleLogIn,gitHubLogIn} =useContext(AuthContext)
+    const [click,setClick] =useState(false)
     const {
         register,
         handleSubmit,
@@ -16,6 +21,10 @@ const Login = () => {
 
       const onSubmit = (data) => {
        const {email,password} =data
+    //    if(email === true){
+    //     toast('Email does not match')
+    //     return;
+    //    }
        signIn(email,password)
        .then(result => {
         console.log(result.user)
@@ -54,10 +63,28 @@ const Login = () => {
           <label className="label">
             <span className="label-text">Password</span>
           </label>
-          <input type="password" placeholder="password" className="input input-bordered" 
-          {...register("password", { required: true })}
-          />
+         <div>
+        
+         <div className="flex relative">
+         <input type={click ? 'text':'password'} placeholder="password" className="input input-bordered w-full  " 
+         
+         {...register("password", { required: true })}
+         
+         />
+         <div className="absolute  justify-end top-4 left-60">
+
+          {
+           click? <IoEyeOffOutline onClick={() => setClick(false)} /> : <IoEyeOutline onClick={() => setClick(true)} />
+          }
+         </div>
+         </div>
+          <div>
+
            {errors.password && <span className="text-red-600">This field is required</span>}
+          </div>
+           
+        
+           </div>
           <label className="label">
             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
           </label>
@@ -79,6 +106,7 @@ const Login = () => {
     </div>
   </div>
 </div>
+{/* <ToastContainer /> */}
         </div>
     );
 };

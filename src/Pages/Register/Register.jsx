@@ -1,11 +1,16 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { IoEyeOffOutline } from "react-icons/io5";
 
-
+import { IoEyeOutline } from "react-icons/io5";
 const Register = () => {
     const {createAccount} =useContext(AuthContext)
+    const [click,setClick] =useState(false)
+     
     const {
         register,
         handleSubmit,
@@ -14,14 +19,21 @@ const Register = () => {
 
       const onSubmit = (data) => {
         const {email,password}=data
-        
+
+        const passwordVerify=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/
+        if( !passwordVerify.test(password) ){
+            toast("Password should be one UpperCase ,one lowerCase and at least 6 character"); 
+            return;  
+        }
         createAccount(email,password)
-        .then(result => {
-            console.log(result)
+        .then(() => {
+           
         })
         .catch(error => {
             console.log(error.message)
         })
+        toast('successfully register')
+
       }
     return (
         <div>
@@ -61,9 +73,17 @@ const Register = () => {
       <label className="label">
         <span className="label-text">Password</span>
       </label>
-      <input type="password" placeholder="password" className="input input-bordered" 
+      <div className="flex relative ">
+      <input type={click ? 'text':'password'} placeholder="password" className="input input-bordered w-full" 
        {...register("password", { required: true })}
       />
+      <div className="absolute  justify-end top-4 left-64">
+
+{
+ click? <IoEyeOffOutline onClick={() => setClick(false)} /> : <IoEyeOutline onClick={() => setClick(true)} />
+}
+</div>
+      </div>
       {errors.password && <span className="text-red-600">This field is required</span>}
       <label className="label">
         <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
@@ -77,6 +97,7 @@ const Register = () => {
 </div>
 </div>
 </div>
+<ToastContainer />
     </div>
     );
 };
