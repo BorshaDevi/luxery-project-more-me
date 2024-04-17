@@ -7,6 +7,9 @@ const Navbar = () => {
     const links=<>
           <li><NavLink to='/'>Home</NavLink></li>
           <li><NavLink to='/updateProfile'>Update Profile</NavLink></li>
+          {
+            user && <li><NavLink to='/review'>Review</NavLink></li>
+          }
           
     </>
     const handleLogOut=()=>{

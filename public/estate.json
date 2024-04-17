@@ -93,7 +93,7 @@
       "area": "1500 sq ft",
       "location": "Urban, Brooklyn, New York City",
       "facilities": ["living room", "exposed brick walls", "laundry room"],
-      "image_url": "https://example.com/urban_loft.jpg"
+      "image_url": "https://i.ibb.co/41sxNk7/maldives-island.jpg"
     },
     {
       "id": "9",
@@ -105,7 +105,7 @@
       "area": "3500 sq ft",
       "location": "Mountain, Aspen, Colorado",
       "facilities": ["living room", "fireplace", "deck"],
-      "image_url": "https://example.com/mountain_chalet.jpg"
+      "image_url": "https://i.ibb.co/PrHYwCH/outdoor-swimming-pool.jpg"
     }
   ]
   

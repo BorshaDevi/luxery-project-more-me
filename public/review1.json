@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Sunset Paradise Resort",
+      "image": "https://i.ibb.co/hdVcg8d/joyful-beautiful-caucasian-woman-with-bun-hairstyle-wearing-t-shirt-expressing-cheer-good-mood.jpg",
+      "description": "Experience ultimate relaxation at Sunset Paradise Resort. Nestled between lush greenery and crystal-clear waters, this resort offers luxurious amenities and stunning views of the sunset. Whether you're lounging by the pool or indulging in a spa treatment, every moment here is pure bliss.",
+      "rating": 4.7
+    },
+    {
+      "name": "Azure Sands Resort & Spa",
+      "image": "https://i.ibb.co/hdVcg8d/joyful-beautiful-caucasian-woman-with-bun-hairstyle-wearing-t-shirt-expressing-cheer-good-mood.jpghttps://i.ibb.co/FB2skm8/stylish-good-looking-ambitious-smiling-brunette-woman-with-curly-hairstyle-cross-hands-chest-confide.jpg",
+      "description": "Escape to a world of serenity at Azure Sands Resort & Spa. Surrounded by pristine beaches and tropical gardens, this resort provides the perfect setting for a rejuvenating getaway. With top-notch facilities, gourmet dining options, and attentive staff, your stay here will exceed all expectations.",
+      "rating": 4.9
+    },
+    {
+      "name": "Mountain Haven Retreat",
+      "image": "https://i.ibb.co/N7PC62L/good-looking-caucasian-female-with-blonde-straight-hair-wearing-glasses-denim-shirt-smiles-happily-h.jpg",
+      "description": "Discover the beauty of nature at Mountain Haven Retreat. Tucked away in the heart of the mountains, this secluded resort offers a tranquil escape from the hustle and bustle of everyday life. Whether you're hiking through scenic trails or unwinding in a cozy cabin, you'll find peace and serenity at every turn.",
+      "rating": 4.8
+    },
+    {
+      "name": "Tropical Breeze Resort & Spa",
+      "image": "https://i.ibb.co/mXnRMVQ/bearded-man-staying-nature.jpg",
+      "description": "Immerse yourself in luxury at Tropical Breeze Resort & Spa. Set against a backdrop of palm trees and turquoise waters, this resort offers a paradise-like setting for your vacation. From indulgent spa treatments to gourmet dining experiences, every moment here is designed to pamper your senses.",
+      "rating": 4.6
+    },
+    {
+      "name": "Serenity Cove Retreat",
+      "image": "https://i.ibb.co/JmdYtv9/young-bearded-man-with-striped-shirt.jpg",
+      "description": "Experience tranquility at Serenity Cove Retreat. Nestled along a secluded cove, this intimate resort offers breathtaking views and unparalleled relaxation. Whether you're lounging on the beach or enjoying a sunset cruise, you'll find peace and serenity in every corner of this hidden gem.",
+      "rating": 4.5
+    },
+    {
+      "name": "Alpine Meadows Resort",
+      "image": "https://i.ibb.co/LnbSM3b/artist-white-1.jpg",
+      "description": "Escape to the mountains at Alpine Meadows Resort. Surrounded by towering peaks and pristine forests, this charming resort offers a cozy retreat for nature lovers. Whether you're skiing down powdery slopes or sipping hot cocoa by the fireplace, you'll feel right at home in this alpine paradise.",
+      "rating": 4.7
+    },
+    {
+      "name": "Oceanfront Oasis Resort",
+      "image": "https://i.ibb.co/DptY40X/artist-white.jpg",
+      "description": "Indulge in luxury at Oceanfront Oasis Resort. With stunning ocean views and world-class amenities, this resort is the ultimate seaside retreat. Whether you're lounging by the infinity pool or dining at a beachfront restaurant, every moment here is filled with relaxation and indulgence.",
+      "rating": 4.9
+    },
+    {
+      "name": "Tranquil Pines Lodge",
+      "image": "https://i.ibb.co/Jt87PL9/smiley-girl-wearing-straw-hat-with-copy-space.jpg",
+      "description": "Find peace and serenity at Tranquil Pines Lodge. Nestled in a secluded forest setting, this rustic resort offers a cozy retreat for nature enthusiasts. Whether you're exploring nearby trails or simply unwinding on the porch, you'll feel refreshed and rejuvenated in the tranquil atmosphere of this mountain getaway.",
+      "rating": 4.6
+    },
+    {
+      "name": "Island Paradise Resort & Spa",
+      "image": "https://example.com/island_paradise.jpg",
+      "description": "Escape to paradise at Island Paradise Resort & Spa. Set on a pristine tropical island, this luxurious resort offers breathtaking views and world-class amenities. Whether you're snorkeling in crystal-clear waters or enjoying a massage on the beach, every moment here is filled with relaxation and romance.",
+      "rating": 4.8
+    },
+    {
+      "name": "Lakeside Retreat",
+      "image": "https://i.ibb.co/DptY40X/artist-white.jpg",
+      "description": "Experience lakeside luxury at Lakeside Retreat. Situated on the shores of a tranquil lake, this upscale resort offers stunning views and unparalleled relaxation. Whether you're kayaking on the water or roasting marshmallows by the fire pit, you'll find endless opportunities for outdoor adventure and relaxation.",
+      "rating": 4.7
+    }
+  ]
+  

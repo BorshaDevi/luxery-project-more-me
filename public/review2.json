@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Palm Cove Paradise Resort",
+      "image": "https://i.ibb.co/hdVcg8d/joyful-beautiful-caucasian-woman-with-bun-hairstyle-wearing-t-shirt-expressing-cheer-good-mood.jpg",
+      "description": "Escape to paradise at Palm Cove Paradise Resort. Located along a pristine stretch of coastline, this luxurious resort offers breathtaking ocean views and world-class amenities. Whether you're lounging by the pool or exploring nearby rainforests, every moment here is filled with relaxation and adventure.",
+      "rating": 4.9
+    },
+    {
+      "name": "Desert Oasis Resort & Spa",
+      "image": "https://i.ibb.co/hdVcg8d/joyful-beautiful-caucasian-woman-with-bun-hairstyle-wearing-t-shirt-expressing-cheer-good-mood.jpghttps://i.ibb.co/FB2skm8/stylish-good-looking-ambitious-smiling-brunette-woman-with-curly-hairstyle-cross-hands-chest-confide.jpg",
+      "description": "Discover luxury in the desert at Desert Oasis Resort & Spa. Surrounded by majestic sand dunes and clear blue skies, this tranquil resort offers a serene escape from the hustle and bustle of city life. With indulgent spa treatments and gourmet dining options, your stay here will be nothing short of magical.",
+      "rating": 4.7
+    },
+    {
+      "name": "Golden Shores Beach Resort",
+      "image": "https://i.ibb.co/N7PC62L/good-looking-caucasian-female-with-blonde-straight-hair-wearing-glasses-denim-shirt-smiles-happily-h.jpg",
+      "description": "Experience coastal elegance at Golden Shores Beach Resort. Situated on a pristine stretch of golden sand, this upscale resort offers luxurious accommodations and breathtaking ocean views. Whether you're lounging in a cabana or sipping cocktails at the beach bar, every moment here is filled with relaxation and luxury.",
+      "rating": 4.8
+    },
+    {
+      "name": "Rainforest Retreat & Spa",
+      "image": "https://i.ibb.co/mXnRMVQ/bearded-man-staying-nature.jpg",
+      "description": "Immerse yourself in nature at Rainforest Retreat & Spa. Tucked away in the heart of a lush tropical rainforest, this eco-friendly resort offers a tranquil escape from the outside world. Whether you're hiking through dense jungle trails or indulging in a holistic spa treatment, you'll find peace and serenity in every corner of this natural paradise.",
+      "rating": 4.6
+    },
+    {
+      "name": "Sapphire Lakeside Resort",
+      "image": "https://i.ibb.co/JmdYtv9/young-bearded-man-with-striped-shirt.jpg",
+      "description": "Experience lakeside luxury at Sapphire Lakeside Resort. Nestled along the shores of a tranquil lake, this elegant resort offers stunning views and upscale amenities. Whether you're paddleboarding on the water or dining at a lakeside restaurant, you'll find endless opportunities for relaxation and adventure.",
+      "rating": 4.7
+    },
+    {
+      "name": "Enchanted Forest Lodge",
+      "image": "https://i.ibb.co/LnbSM3b/artist-white-1.jpg",
+      "description": "Escape to a fairytale at Enchanted Forest Lodge. Surrounded by towering trees and sparkling streams, this whimsical resort offers a magical retreat for nature lovers. Whether you're exploring hidden trails or cozying up by the fireplace, you'll feel like you've stepped into a storybook at this enchanting getaway.",
+      "rating": 4.8
+    },
+    {
+      "name": "Coastal Haven Resort",
+      "image": "https://i.ibb.co/DptY40X/artist-white.jpg",
+      "description": "Find serenity by the sea at Coastal Haven Resort. With panoramic ocean views and luxurious accommodations, this coastal retreat offers the perfect setting for a relaxing vacation. Whether you're lounging on the beach or unwinding in a private villa, you'll feel rejuvenated and refreshed in the tranquil atmosphere of this seaside paradise.",
+      "rating": 4.9
+    },
+    {
+      "name": "Majestic Mountain Resort",
+      "image": "https://i.ibb.co/Jt87PL9/smiley-girl-wearing-straw-hat-with-copy-space.jpg",
+      "description": "Discover the beauty of the mountains at Majestic Mountain Resort. Perched high above the clouds, this upscale retreat offers breathtaking views and luxurious amenities. Whether you're skiing down powdery slopes or sipping champagne in a hot tub, every moment here is filled with adventure and romance.",
+      "rating": 4.8
+    },
+    {
+      "name": "Emerald Coast Resort & Spa",
+      "image": "https://i.ibb.co/mXnRMVQ/bearded-man-staying-nature.jpg",
+      "description": "Indulge in luxury at Emerald Coast Resort & Spa. Set along a stretch of pristine coastline, this upscale resort offers stunning ocean views and world-class amenities. Whether you're lounging by the pool or enjoying a massage at the spa, every moment here is designed to pamper your senses and soothe your soul.",
+      "rating": 4.7
+    },
+    {
+      "name": "Riverside Retreat",
+      "image": "https://i.ibb.co/DptY40X/artist-white.jpg",
+      "description": "Escape to nature at Riverside Retreat. Nestled along the banks of a tranquil river, this rustic resort offers a peaceful escape from the hustle and bustle of everyday life. Whether you're fishing on the river or roasting marshmallows by the campfire, you'll find endless opportunities for relaxation and adventure at this idyllic retreat.",
+      "rating": 4.6
+    }
+  ]
+  
