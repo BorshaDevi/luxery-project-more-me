@@ -10,6 +10,7 @@ import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { IoEyeOutline } from "react-icons/io5";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import {Helmet} from "react-helmet";
 const Login = () => {
     const {signIn,googleLogIn,gitHubLogIn} =useContext(AuthContext)
     const [click,setClick] =useState(false)
@@ -51,6 +52,7 @@ const Login = () => {
       
     return (
         <div>
+          
             <div className="hero min-h-screen ">
   <div className="hero-content flex-col  ">
     <div className="text-center lg:text-left ">

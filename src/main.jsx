@@ -7,10 +7,12 @@ import roder from './Roder/roder'
 import AuthProvider from './AuthProvider/AuthProvider'
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <AuthProvider>
-    <RouterProvider router={roder}></RouterProvider>
+      <RouterProvider router={roder}></RouterProvider>
+      
     </AuthProvider>
   </React.StrictMode>,
 )
