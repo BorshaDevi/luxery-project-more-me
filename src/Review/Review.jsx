@@ -18,10 +18,10 @@ const Review = () => {
         .then(data => setReview2(data))
     },[])
     return (
-        <div>
+        <div className=""> 
             {/* review1 */}
             <Marquee>
-            <div className="lg:flex ml-10 gap-8">
+            <div className="lg:flex  ml-10 gap-8">
                 {
                     review1.map((review,index) => <Review1 key={index} review={review}></Review1>)
                 }
