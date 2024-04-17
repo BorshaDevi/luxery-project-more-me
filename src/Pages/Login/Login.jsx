@@ -2,7 +2,7 @@
 import { FcGoogle } from "react-icons/fc";
 import { IoEyeOffOutline } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
@@ -13,6 +13,8 @@ import 'react-toastify/dist/ReactToastify.css';
 const Login = () => {
     const {signIn,googleLogIn,gitHubLogIn} =useContext(AuthContext)
     const [click,setClick] =useState(false)
+    const location =useLocation()
+    const navigate =useNavigate()
     const {
         register,
         handleSubmit,
@@ -26,8 +28,8 @@ const Login = () => {
     //     return;
     //    }
        signIn(email,password)
-       .then(result => {
-        console.log(result.user)
+       .then(() => {
+        navigate(location?.state? location.state : '/')
         
        })
        .catch(() => {
@@ -37,11 +39,13 @@ const Login = () => {
       }
       const handleGoogle=()=>{
         googleLogIn()
+        navigate(location?.state? location.state : '/')
         toast('login successfully')
       }
       const handleGitHub=()=>{
 
         gitHubLogIn()
+        navigate(location?.state? location.state : '/')
         toast('login successfully')
       }
       
