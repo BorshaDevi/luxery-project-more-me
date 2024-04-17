@@ -5,6 +5,8 @@ import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import ErrorPage from "../Pages/Error/ErrorPage";
+import Details from "../Pages/Details/Details";
+import PrivateRoute from "./PrivateRoute";
 
 const roder=createBrowserRouter([
     {
@@ -27,6 +29,11 @@ const roder=createBrowserRouter([
             {
                 path:"/register",
                 element:<Register></Register>
+            },
+            {
+                path:"/details/:Id",
+                loader:() => fetch('/estate.json'),
+                element:<PrivateRoute><Details></Details></PrivateRoute>,
             }
         ]
     }

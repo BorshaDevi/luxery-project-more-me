@@ -1,7 +1,8 @@
 import { MdLocationOn } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const EstateCard = ({estate}) => {
-    const {id,estate_title,segment_name,price,area,location,image_url,facilities} =estate
+    const {id,estate_title,price,area,location,image_url} =estate
     return (
         <div className="">
            <div className="card w-96  shadow-xl shadow-teal-100 mt-5 ">
@@ -9,7 +10,7 @@ const EstateCard = ({estate}) => {
     <div >
     <img src={image_url}  className="mt-8" alt="Shoes" />
     <div className="card-actions justify-start mt-4">
-      <button className="btn bg-teal-200 hover:bg-teal-500">View Property</button>
+     <Link to={`/details/${id}`}> <button className="btn bg-teal-200 hover:bg-teal-500">View Property</button></Link>
     </div>
     </div>
     <div>
