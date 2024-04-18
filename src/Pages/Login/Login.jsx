@@ -10,7 +10,7 @@ import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { IoEyeOutline } from "react-icons/io5";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet-async";
 const Login = () => {
     const {signIn,googleLogIn,gitHubLogIn} =useContext(AuthContext)
     const [click,setClick] =useState(false)
@@ -40,7 +40,7 @@ const Login = () => {
       }
       const handleGoogle=()=>{
         googleLogIn()
-        navigate(location?.state? location.state : '/')
+        navigate(location.state && location.state )
         toast('login successfully')
       }
       const handleGitHub=()=>{
@@ -52,6 +52,11 @@ const Login = () => {
       
     return (
         <div>
+            <Helmet>
+              <title>
+                Luxury estate/Login
+              </title>
+            </Helmet>
           
             <div className="hero min-h-screen ">
   <div className="hero-content flex-col  ">

@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import 'animate.css';
 import { IoHomeOutline } from "react-icons/io5";
 import { CiLocationOn } from "react-icons/ci";
+import { Helmet } from "react-helmet-async";
 
 const Details = () => {
     const details=useLoaderData()
@@ -11,6 +12,11 @@ const Details = () => {
     
     return (
         <div className="hero min-h-screen">
+           <Helmet>
+              <title>
+                Luxury estate/View Property/{Id}
+              </title>
+            </Helmet>
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img src={image_url} className="max-w-sm rounded-lg shadow-2xl animate__animated animate__bounce animate__lightSpeedInLeft" />
     <div>

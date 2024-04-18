@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Review1 from "./Review1";
 import Marquee from "react-fast-marquee";
 import Review2 from "./Review2";
+import { Helmet } from "react-helmet-async";
 
 const Review = () => {
     const [review1,setReview1] =useState([])
@@ -18,7 +19,12 @@ const Review = () => {
         .then(data => setReview2(data))
     },[])
     return (
-        <div className=""> 
+        <div className="">
+            <Helmet>
+              <title>
+                Luxury estate/Review
+              </title>
+            </Helmet> 
             {/* review1 */}
             <Marquee>
             <div className="lg:flex  ml-10 gap-8">

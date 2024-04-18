@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { IoEyeOffOutline } from "react-icons/io5";
 
 import { IoEyeOutline } from "react-icons/io5";
+import { Helmet } from "react-helmet-async";
 const Register = () => {
     const {createAccount} =useContext(AuthContext)
     const [click,setClick] =useState(false)
@@ -37,6 +38,11 @@ const Register = () => {
       }
     return (
         <div>
+          <Helmet>
+              <title>
+                Luxury estate/Register
+              </title>
+            </Helmet>
         <div className="hero min-h-screen ">
 <div className="hero-content flex-col  ">
 <div className="text-center lg:text-left ">
