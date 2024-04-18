@@ -45,11 +45,9 @@ const Navbar = () => {
         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full flex ">
           
-        
+      
           {
-            user  && <div className="tooltip tooltip-open tooltip-bottom" data-tip={user.displayName}>
-            <img  src={user.photoURL}  className="" /> 
-    </div>
+            user  && <img  src={user.photoURL}  className="" /> 
           }
               
         </div>
