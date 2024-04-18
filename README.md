@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 # Luxury estate
 
 # Demo 
-http://localhost:5174/
+https://luxury-real-project.web.app/
 
 
 ## Authors
