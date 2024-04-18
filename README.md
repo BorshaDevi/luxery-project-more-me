@@ -10,7 +10,8 @@ Currently, two official plugins are available:
 
 # Luxury estate
 
-
+# Demo 
+http://localhost:5174/
 
 
 ## Authors
@@ -31,6 +32,7 @@ Currently, two official plugins are available:
 ## About my project
 In my project
 1.For Review page I use [Marquee.com](https://www.react-fast-marquee.com/)
+
 2.If You login this website then you can see review page details.
 
 ## Color Reference
