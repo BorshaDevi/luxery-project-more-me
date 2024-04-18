@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { Helmet } from "react-helmet-async";
-import { toast } from "react-toastify";
+
 
 
 const UpdateProfile = () => {
@@ -15,7 +15,7 @@ const UpdateProfile = () => {
        
        updateProfiles(name)
        .then(() => {
-           toast('successfully')
+           
        })
        .catch(error => {
         console.log(error)

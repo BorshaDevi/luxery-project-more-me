@@ -2,12 +2,14 @@
 import { MdLocationOn } from "react-icons/md";
 import { Link } from "react-router-dom";
 
+import 'animate.css';
+
 const EstateCard = ({estate}) => {
     const {id,estate_title,price,area,location,image_url} =estate
     return (
         <div className="">
          
-           <div className="card w-96  shadow-xl shadow-teal-100 mt-5 ">
+           <div className="card w-96  shadow-xl shadow-teal-100 mt-5 lg:animate__animated animate__bounce animate__fadeOutBottomLeft ">
   <div className="grid grid-cols-2 p-8">
     <div >
     <img src={image_url}  className="mt-8" alt="Shoes" />
