@@ -17,25 +17,6 @@ Currently, two official plugins are available:
 
 - [@borshadevi](https://github.com/)
 
-
-## 🛠 Skills
-Javascript, HTML, CSS...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Package
 
 
@@ -47,16 +28,10 @@ Javascript, HTML, CSS...
 [swiper.js](https://swiperjs.com/)
 
 
-
-
-
-
-
-
-
-
-## 🚀 About Me
-I'm a  developer...
+## About my project
+In my project
+1.For Review page I use [Marquee.com](https://www.react-fast-marquee.com/)
+2.If You login this website then you can see review page details.
 
 ## Color Reference
 
