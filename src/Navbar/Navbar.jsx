@@ -16,7 +16,8 @@ const Navbar = () => {
       
       loginOut()
       .then(() => {
-        console.log('working')
+        
+       
       })
       .catch(error => {
         console.log(error.message)
@@ -42,10 +43,13 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full ">
+        <div className="w-10 rounded-full flex ">
+          
+            
           {
             user  && <img  src={user.photoURL}  className="" /> 
           }
+              
         </div>
       </div>
       {

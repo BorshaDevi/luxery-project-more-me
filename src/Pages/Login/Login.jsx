@@ -12,6 +12,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from "react-helmet-async";
 const Login = () => {
+  
     const {signIn,googleLogIn,gitHubLogIn} =useContext(AuthContext)
     const [click,setClick] =useState(false)
     const location =useLocation()
@@ -30,6 +31,7 @@ const Login = () => {
     //    }
        signIn(email,password)
        .then(() => {
+        
         navigate(location?.state? location.state : '/')
         
        })
@@ -40,6 +42,7 @@ const Login = () => {
       }
       const handleGoogle=()=>{
         googleLogIn()
+        
         navigate(location.state && location.state )
         toast('login successfully')
       }
