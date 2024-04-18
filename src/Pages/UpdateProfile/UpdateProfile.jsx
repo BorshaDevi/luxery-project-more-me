@@ -28,7 +28,7 @@ const UpdateProfile = () => {
             <Helmet>
                 <title>luxury estate/Update profile</title>
             </Helmet>
-            <form onSubmit={handleUpdate} >
+            <form onSubmit={handleUpdate}  >
             <div className="text-center max-w-6xl p-10  mx-auto mt-8">
             <div className="avatar">
          <div className="w-24 rounded-full">
